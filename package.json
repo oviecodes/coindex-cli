@@ -1,0 +1,19 @@
+{
+  "name": "coindex",
+  "version": "1.0.0",
+  "description": "A node.js cli that gets recent cryptocurrency prices",
+  "main": "index.js",
+  "bin": "./bin/coindex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Godwin Alexander",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "colors": "^1.4.0",
+    "commander": "^6.2.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.3.3"
+  }
+}
